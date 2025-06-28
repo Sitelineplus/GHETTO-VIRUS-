@@ -7,33 +7,65 @@ html
   <title>Ghetto Virus</title>
   <style>
     body {
-      background-color: #111;
-      color: white;
-      font-family: Arial, sans-serif;
+      background-color: #0d0d0d;
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
       margin: 0;
       padding: 0;
     }
+
     header {
-      background-color: #2a003f;
-      padding: 20px;
+      background: linear-gradient(90deg, #5f00ba, #1c003f);
+      padding: 40px 20px 20px;
       text-align: center;
     }
+
     header h1 {
-      color: #d9a3ff;
+      font-size: 2.5em;
       margin: 0;
+      color: #e0b3ff;
     }
+
+    header p {
+      font-size: 1em;
+      margin: 10px 0 0;
+      color: #ccc;
+    }
+
     section {
       padding: 30px 20px;
-      text-align: center;
+      max-width: 600px;
+      margin: auto;
     }
-    audio {
-      width: 90%;
-      max-width: 400px;
+
+    h2 {
+      color: #b84dff;
+      font-size: 1.8em;
+      margin-bottom: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .track {
+      background-color: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 15px;
       margin-bottom: 20px;
+box-shadow: 0 0 10px rgba(184, 77, 255, 0.1);
     }
-    p {
-      margin-top: 5px;
+
+    .track p {
+      margin: 0 0 10px;
       font-weight: bold;
+    }
+
+    audio {
+      width: 100%;
+      outline: none;
+      border-radius: 8px;
     }
   </style>
 </head>
@@ -45,47 +77,63 @@ html
   </header>
 
   <section>
-    <h2 style="color: #b84dff;">🎧 Tracks</h2>
+    <h2>🎧 Tracks</h2>
 
-    <p>Clowns (Jason The Black Duke × Doe boy beast).m4a</p>
-    <audio controls>
-      <source src="music/Clowns (Jason The Black Duke x Doe boy beast).m4a" type="audio/mp4">
-    </audio>
+    <div class="track">
+      <p>Clowns (Jason The Black Duke x Doe boy beast)</p>
+      <audio controls>
+        <source src="Clowns (Jason The Black Duke x Doe boy beast).m4a" type="audio/mp4">
+      </audio>
+    </div>
 
-    <p>Dust (ft Tholyza body begged)</p>
-    <audio controls>
-<source src="music/Dust (ft Tholyza body begged).mp3" type="audio/mpeg">
-    </audio>
+    <div class="track">
+      <p>Dust (ft Tholyza body begged)</p>
+      <audio controls>
+        <source src="Dust (ft Tholyza body begged).mp3" type="audio/mpeg">
+      </audio>
+    </div>
 
-    <p>In Dah Pot</p>
-    <audio controls>
-      <source src="music/In Dah Pot.m4a" type="audio/mp4">
-    </audio>
+    <div class="track">
+      <p>In Dah Pot</p>
+      <audio controls>
+        <source src="In Dah Pot.m4a" type="audio/mp4">
+      </audio>
+    </div>
 
-    <p>King Flow (Jason the black Duke x Doe boy beast)</p>
-    <audio controls>
-      <source src="music/King Flow (Jason the black Duke x Doe boy beast).m4a" type="audio/mp4">
-    </audio>
+    <div class="track">
+      <p>King Flow (Jason the black Duke x Doe boy beast)</p>
+      <audio controls>
+        <source src="King flow (Jason the black Duke x Doe boy beast).m4a" type="audio/mp4">
+      </audio>
+    </div>
 
-    <p>Nfana (Tholyza body begged x Jason the black Duke)</p>
-    <audio controls>
-      <source src="music/Nfana (Tholyza body begged x Jason the black Duke).mp3" type="audio/mpeg">
-    </audio>
+    <div class="track">
+      <p>Nfana (Tholyza body begged x Jason the black Duke)</p>
+      <audio controls>
+<source src="Nfana (Tholyza body begged x Jason the black Duke).mp3" type="audio/mpeg">
+      </audio>
+    </div>
 
-    <p>Nfetho (abekho cover)</p>
-    <audio controls>
-      <source src="music/Nfetho (abekho cover).mp3" type="audio/mpeg">
-    </audio>
+    <div class="track">
+      <p>Nfetho (abekho cover)</p>
+      <audio controls>
+        <source src="Nfetho ( abekho cover).mp3" type="audio/mpeg">
+      </audio>
+    </div>
 
-    <p>Python</p>
-    <audio controls>
-      <source src="music/Python.mp3" type="audio/mpeg">
-    </audio>
+    <div class="track">
+      <p>Python</p>
+      <audio controls>
+        <source src="Python.mp3" type="audio/mpeg">
+      </audio>
+    </div>
 
-    <p>Turn</p>
-    <audio controls>
-      <source src="music/Turn.m4a" type="audio/mp4">
-    </audio>
+    <div class="track">
+      <p>Turn</p>
+      <audio controls>
+        <source src="Turn .m4a" type="audio/mp4">
+      </audio>
+    </div>
 
   </section>
 
